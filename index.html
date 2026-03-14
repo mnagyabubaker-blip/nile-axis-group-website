@@ -16,6 +16,10 @@
     content="Nile Axis Group provides reliable corrugated carton supply solutions for factories, manufacturers, and industrial businesses."
   />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -29,14 +33,18 @@
         </div>
       </div>
 
-      <nav>
-        <a href="#about">About</a>
-        <a href="#why">Why Us</a>
-        <a href="#products">Products</a>
-        <a href="#specs">Specifications</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="nav-right">
+        <nav>
+          <a href="#about" data-en="About" data-ar="من نحن">About</a>
+          <a href="#why" data-en="Why Us" data-ar="لماذا نحن">Why Us</a>
+          <a href="#products" data-en="Products" data-ar="المنتجات">Products</a>
+          <a href="#specs" data-en="Specifications" data-ar="المواصفات">Specifications</a>
+          <a href="#gallery" data-en="Gallery" data-ar="الصور">Gallery</a>
+          <a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+        </nav>
+
+        <button id="langToggle" class="lang-btn">AR</button>
+      </div>
     </div>
   </header>
 
@@ -45,57 +53,121 @@
 
     <div class="hero-overlay">
       <div class="container">
-        <h2>Reliable Corrugated Carton Supply</h2>
-        <p>
-          B2B packaging solutions for factories, manufacturers,
-          and industrial businesses.
+        <h2
+          class="translatable"
+          data-en="Reliable Corrugated Carton Supply"
+          data-ar="توريد كرتون مضلع موثوق"
+        >
+          Reliable Corrugated Carton Supply
+        </h2>
+
+        <p
+          class="translatable"
+          data-en="B2B packaging solutions for factories, manufacturers, and industrial businesses."
+          data-ar="حلول تغليف وتوريد كرتون للشركات والمصانع والأنشطة الصناعية."
+        >
+          B2B packaging solutions for factories, manufacturers, and industrial businesses.
         </p>
-        <a class="btn" href="#contact">Contact Us</a>
+
+        <a
+          class="btn translatable"
+          href="#contact"
+          data-en="Contact Us"
+          data-ar="تواصل معنا"
+        >
+          Contact Us
+        </a>
       </div>
     </div>
   </section>
 
   <section id="about">
     <div class="container">
-      <h2>About Nile Axis Group</h2>
-      <p>
-        Nile Axis Group is a B2B supplier of corrugated carton packaging solutions.
-        We provide reliable carton supply for factories and industrial businesses
-        looking for consistent quality, competitive pricing, and dependable delivery.
+      <h2
+        class="translatable"
+        data-en="About Nile Axis Group"
+        data-ar="عن Nile Axis Group"
+      >
+        About Nile Axis Group
+      </h2>
+
+      <p
+        class="translatable"
+        data-en="Nile Axis Group is a B2B supplier of corrugated carton packaging solutions. We provide reliable carton supply for factories and industrial businesses looking for consistent quality, competitive pricing, and dependable delivery."
+        data-ar="Nile Axis Group هي شركة متخصصة في توريد حلول الكرتون المضلع للشركات بنظام B2B. نوفر توريدًا موثوقًا للمصانع والأنشطة الصناعية التي تبحث عن جودة ثابتة وأسعار تنافسية والتزام في التسليم."
+      >
+        Nile Axis Group is a B2B supplier of corrugated carton packaging solutions. We provide reliable carton supply for factories and industrial businesses looking for consistent quality, competitive pricing, and dependable delivery.
       </p>
-      <p>
-        Our focus is to support operational efficiency through strong packaging,
-        stable supply, and professional long-term business partnerships.
+
+      <p
+        class="translatable"
+        data-en="Our focus is to support operational efficiency through strong packaging, stable supply, and professional long-term business partnerships."
+        data-ar="نركز على دعم كفاءة التشغيل من خلال عبوات قوية واستقرار في التوريد وبناء شراكات مهنية طويلة المدى."
+      >
+        Our focus is to support operational efficiency through strong packaging, stable supply, and professional long-term business partnerships.
       </p>
     </div>
   </section>
 
   <section id="why">
     <div class="container">
-      <h2>Why Choose Us</h2>
+      <h2
+        class="translatable"
+        data-en="Why Choose Us"
+        data-ar="لماذا تختارنا"
+      >
+        Why Choose Us
+      </h2>
 
       <div class="grid">
         <div class="card">
-          <h3>Reliable Supply</h3>
-          <p>
-            Consistent carton supply for factories, manufacturers,
-            and growing industrial operations.
+          <h3
+            class="translatable"
+            data-en="Reliable Supply"
+            data-ar="توريد مستقر"
+          >
+            Reliable Supply
+          </h3>
+          <p
+            class="translatable"
+            data-en="Consistent carton supply for factories, manufacturers, and growing industrial operations."
+            data-ar="توريد منتظم للكرتون للمصانع والشركات والعمليات الصناعية المتنامية."
+          >
+            Consistent carton supply for factories, manufacturers, and growing industrial operations.
           </p>
         </div>
 
         <div class="card">
-          <h3>Competitive Pricing</h3>
-          <p>
-            Cost-efficient packaging solutions that help businesses
-            manage operations more effectively.
+          <h3
+            class="translatable"
+            data-en="Competitive Pricing"
+            data-ar="أسعار تنافسية"
+          >
+            Competitive Pricing
+          </h3>
+          <p
+            class="translatable"
+            data-en="Cost-efficient packaging solutions that help businesses manage operations more effectively."
+            data-ar="حلول تغليف اقتصادية تساعد الشركات على إدارة عملياتها بكفاءة أعلى."
+          >
+            Cost-efficient packaging solutions that help businesses manage operations more effectively.
           </p>
         </div>
 
         <div class="card">
-          <h3>Industrial Quality</h3>
-          <p>
-            Strong corrugated cartons designed for logistics,
-            shipping, storage, and industrial handling.
+          <h3
+            class="translatable"
+            data-en="Industrial Quality"
+            data-ar="جودة صناعية"
+          >
+            Industrial Quality
+          </h3>
+          <p
+            class="translatable"
+            data-en="Strong corrugated cartons designed for logistics, shipping, storage, and industrial handling."
+            data-ar="كرتون مضلع قوي مصمم للنقل والتخزين واللوجستيات والاستخدامات الصناعية."
+          >
+            Strong corrugated cartons designed for logistics, shipping, storage, and industrial handling.
           </p>
         </div>
       </div>
@@ -104,35 +176,80 @@
 
   <section id="products">
     <div class="container">
-      <h2>Our Products</h2>
+      <h2
+        class="translatable"
+        data-en="Our Products"
+        data-ar="منتجاتنا"
+      >
+        Our Products
+      </h2>
 
       <div class="grid">
         <div class="card">
-          <h3>Single Wall Cartons</h3>
-          <p>
+          <h3
+            class="translatable"
+            data-en="Single Wall Cartons"
+            data-ar="كرتون طبقة واحدة"
+          >
+            Single Wall Cartons
+          </h3>
+          <p
+            class="translatable"
+            data-en="Standard packaging solution for light to medium weight products."
+            data-ar="حل تغليف قياسي للمنتجات ذات الأوزان الخفيفة إلى المتوسطة."
+          >
             Standard packaging solution for light to medium weight products.
           </p>
         </div>
 
         <div class="card">
-          <h3>Double Wall Cartons</h3>
-          <p>
+          <h3
+            class="translatable"
+            data-en="Double Wall Cartons"
+            data-ar="كرتون طبقتين"
+          >
+            Double Wall Cartons
+          </h3>
+          <p
+            class="translatable"
+            data-en="Heavy-duty cartons for stronger product protection during shipping and storage."
+            data-ar="كرتون عالي التحمل لحماية أقوى أثناء الشحن والتخزين."
+          >
             Heavy-duty cartons for stronger product protection during shipping and storage.
           </p>
         </div>
 
         <div class="card">
-          <h3>Custom Cartons</h3>
-          <p>
+          <h3
+            class="translatable"
+            data-en="Custom Cartons"
+            data-ar="كرتون حسب الطلب"
+          >
+            Custom Cartons
+          </h3>
+          <p
+            class="translatable"
+            data-en="Tailored carton dimensions and structures based on your product requirements."
+            data-ar="مقاسات وتصميمات كرتون مخصصة حسب احتياجات المنتج."
+          >
             Tailored carton dimensions and structures based on your product requirements.
           </p>
         </div>
 
         <div class="card">
-          <h3>Printed Cartons</h3>
-          <p>
-            Flexographic printing options for branding, labeling,
-            and product identification.
+          <h3
+            class="translatable"
+            data-en="Printed Cartons"
+            data-ar="كرتون مطبوع"
+          >
+            Printed Cartons
+          </h3>
+          <p
+            class="translatable"
+            data-en="Flexographic printing options for branding, labeling, and product identification."
+            data-ar="خيارات طباعة فليكسو للعلامة التجارية ووضع البيانات والتعريف بالمنتج."
+          >
+            Flexographic printing options for branding, labeling, and product identification.
           </p>
         </div>
       </div>
@@ -141,36 +258,42 @@
 
   <section id="specs">
     <div class="container">
-      <h2>Technical Specifications</h2>
+      <h2
+        class="translatable"
+        data-en="Technical Specifications"
+        data-ar="المواصفات الفنية"
+      >
+        Technical Specifications
+      </h2>
 
       <table>
         <tr>
-          <th>Specification</th>
-          <th>Details</th>
+          <th class="translatable" data-en="Specification" data-ar="المواصفة">Specification</th>
+          <th class="translatable" data-en="Details" data-ar="التفاصيل">Details</th>
         </tr>
         <tr>
-          <td>Flute Types</td>
-          <td>A, B, C, E, BC Combination</td>
+          <td class="translatable" data-en="Flute Types" data-ar="أنواع الفلوت">Flute Types</td>
+          <td class="translatable" data-en="A, B, C, E, BC Combination" data-ar="A و B و C و E وتركيبة BC">A, B, C, E, BC Combination</td>
         </tr>
         <tr>
-          <td>Wall Type</td>
-          <td>Single Wall / Double Wall</td>
+          <td class="translatable" data-en="Wall Type" data-ar="نوع الطبقات">Wall Type</td>
+          <td class="translatable" data-en="Single Wall / Double Wall" data-ar="طبقة واحدة / طبقتان">Single Wall / Double Wall</td>
         </tr>
         <tr>
-          <td>Paper GSM</td>
-          <td>125 – 350 GSM</td>
+          <td class="translatable" data-en="Paper GSM" data-ar="سُمك الورق GSM">Paper GSM</td>
+          <td class="translatable" data-en="125 – 350 GSM" data-ar="من 125 إلى 350 GSM">125 – 350 GSM</td>
         </tr>
         <tr>
-          <td>Burst Strength</td>
-          <td>Industrial Packaging Standards</td>
+          <td class="translatable" data-en="Burst Strength" data-ar="قوة الانفجار">Burst Strength</td>
+          <td class="translatable" data-en="Industrial Packaging Standards" data-ar="طبقًا لمعايير التعبئة الصناعية">Industrial Packaging Standards</td>
         </tr>
         <tr>
-          <td>Edge Crush Test</td>
-          <td>32 – 48 ECT</td>
+          <td class="translatable" data-en="Edge Crush Test" data-ar="اختبار ضغط الحواف">Edge Crush Test</td>
+          <td class="translatable" data-en="32 – 48 ECT" data-ar="من 32 إلى 48 ECT">32 – 48 ECT</td>
         </tr>
         <tr>
-          <td>Printing</td>
-          <td>Flexographic Printing (1–4 Colors)</td>
+          <td class="translatable" data-en="Printing" data-ar="الطباعة">Printing</td>
+          <td class="translatable" data-en="Flexographic Printing (1–4 Colors)" data-ar="طباعة فليكسو من 1 إلى 4 ألوان">Flexographic Printing (1–4 Colors)</td>
         </tr>
       </table>
     </div>
@@ -178,25 +301,52 @@
 
   <section id="gallery">
     <div class="container">
-      <h2>Operational Capability</h2>
+      <h2
+        class="translatable"
+        data-en="Operational Capability"
+        data-ar="القدرة التشغيلية"
+      >
+        Operational Capability
+      </h2>
 
       <div class="gallery-box">
         <img src="images/boxes.jpg" alt="Corrugated boxes in warehouse" class="boxes-image" />
       </div>
 
-      <p class="gallery-text">
-        Our carton solutions are prepared to support industrial packaging,
-        warehousing, and distribution requirements with dependable supply standards.
+      <p
+        class="gallery-text translatable"
+        data-en="Our carton solutions are prepared to support industrial packaging, warehousing, and distribution requirements with dependable supply standards."
+        data-ar="حلول الكرتون لدينا جاهزة لدعم احتياجات التغليف الصناعي والتخزين والتوزيع وفق معايير توريد موثوقة."
+      >
+        Our carton solutions are prepared to support industrial packaging, warehousing, and distribution requirements with dependable supply standards.
       </p>
     </div>
   </section>
 
   <section id="contact">
     <div class="container">
-      <h2>Contact Us</h2>
-      <p><strong>Email:</strong> mnagy.abubaker@outlook.com</p>
-      <p><strong>Location:</strong> Obour City – Egypt</p>
-      <p><strong>LinkedIn:</strong> Nile Axis Group</p>
+      <h2
+        class="translatable"
+        data-en="Contact Us"
+        data-ar="تواصل معنا"
+      >
+        Contact Us
+      </h2>
+
+      <p>
+        <strong class="translatable" data-en="Email:" data-ar="البريد الإلكتروني:">Email:</strong>
+        <span>mnagy.abubaker@outlook.com</span>
+      </p>
+
+      <p>
+        <strong class="translatable" data-en="Location:" data-ar="الموقع:">Location:</strong>
+        <span class="translatable" data-en="Obour City – Egypt" data-ar="مدينة العبور – مصر">Obour City – Egypt</span>
+      </p>
+
+      <p>
+        <strong class="translatable" data-en="LinkedIn:" data-ar="لينكدإن:">LinkedIn:</strong>
+        <span>Nile Axis Group</span>
+      </p>
     </div>
   </section>
 
@@ -205,6 +355,42 @@
       <p>© 2026 Nile Axis Group. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    const toggleBtn = document.getElementById("langToggle");
+    let currentLang = "en";
+
+    function setLanguage(lang) {
+      const elements = document.querySelectorAll(".translatable, nav a");
+
+      elements.forEach((el) => {
+        const text = el.getAttribute(`data-${lang}`);
+        if (text) el.textContent = text;
+      });
+
+      if (lang === "ar") {
+        document.documentElement.lang = "ar";
+        document.body.classList.add("arabic");
+        document.body.dir = "rtl";
+        toggleBtn.textContent = "EN";
+      } else {
+        document.documentElement.lang = "en";
+        document.body.classList.remove("arabic");
+        document.body.dir = "ltr";
+        toggleBtn.textContent = "AR";
+      }
+
+      currentLang = lang;
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      if (currentLang === "en") {
+        setLanguage("ar");
+      } else {
+        setLanguage("en");
+      }
+    });
+  </script>
 
 </body>
 </html>
